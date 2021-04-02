@@ -1,0 +1,205 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "OpenCart Affiliate Scenario",
+        "description": "",
+        "id": "opencart-affiliate-account-feature;opencart-affiliate-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12609259000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is present on Login Page",
+            "match": {
+              "location": "AffiliateWithMapStepDefinition.user_present_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 70490100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "title of the page is Account Login",
+            "match": {
+              "location": "AffiliateWithMapStepDefinition.title_of_the_page_is_Account_Login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 423729800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters username and password",
+            "match": {
+              "location": "AffiliateWithMapStepDefinition.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "ghost@gmail.com",
+                  "ghost10"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1148721600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on login button",
+            "match": {
+              "location": "AffiliateWithMapStepDefinition.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14514400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on Account Page",
+            "match": {
+              "location": "AffiliateWithMapStepDefinition.user_is_on_Account_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 541445800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on Affiliate account link",
+            "match": {
+              "location": "AffiliateWithMapStepDefinition.user_clicks_on_Affiliate_account_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8399383600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user fills out affilate details",
+            "match": {
+              "location": "AffiliateWithMapStepDefinition.user_fills_out_affilate_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Company",
+                  "Website",
+                  "TaxId",
+                  "Cheque Payee Name"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "Google",
+                  "gmail.com",
+                  "23421",
+                  "Hamed"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "Netflix",
+                  "netflix.com",
+                  "5342",
+                  "Mohammad"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "YTS",
+                  "yts.com",
+                  "4234",
+                  "David"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "Amazon",
+                  "amazon.com",
+                  "1234",
+                  "Ali"
+                ],
+                "line": 19
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1038054100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "agreement option is clicked and continue is clicked",
+            "match": {
+              "location": "AffiliateWithMapStepDefinition.agreement_option_is_clicked_and_continue_is_clicked()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 55977500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "success message should be displayed",
+            "match": {
+              "location": "AffiliateWithMapStepDefinition.success_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "close the browser",
+            "match": {
+              "location": "AffiliateWithMapStepDefinition.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "OpenCart Affiliate Account Feature",
+    "description": "",
+    "id": "opencart-affiliate-account-feature",
+    "keyword": "Feature",
+    "uri": "/Users/Mohammad/eclipse-workspace/BDDCucumberFrameWork/src/main/java/Features/affiliateMap.feature"
+  }
+]

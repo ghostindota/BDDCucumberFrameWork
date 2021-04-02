@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="24.301605">
+<testcase classname="OpenCart Affiliate Account Feature" name="OpenCart Affiliate Scenario" time="24.301605">
+<system-out><![CDATA[Given user is present on Login Page.........................................passed
+When title of the page is Account Login.....................................passed
+Then user enters username and password......................................passed
+Then user click on login button.............................................passed
+Then user is on Account Page................................................passed
+Then user clicks on Affiliate account link..................................passed
+Then user fills out affilate details........................................passed
+Then agreement option is clicked and continue is clicked....................passed
+Then success message should be displayed....................................passed
+And close the browser.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
